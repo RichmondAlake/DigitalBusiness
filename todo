@@ -1,0 +1,28 @@
+
+4. Customise comp table to match site
+5. Work on brand logo etc
+7. Complete Team section
+9. Navigaiton buttons and headers should navigate to appropriate place
+10. FIx all issues highlighted in http://www.freeformatter.com/html-validator.html
+
+  
+https://preview.c9users.io/richmondrich/digitalbusinesswebsite/Mainpage.html  (Check if this can be viewed by anyone)
+ 
+ISSUES
+*responsivenes issues (need to be solved)
+*Modal creates side scrolling bar that interupts the entire page
+*Youtube video keeps playing even when modal is closed
+*Budget block cirlce doesnt show on firefox (might change to button placed on the bottom)
+*Hover effect on the graph makes the graph start on the left on chrome browser
+
+site inspirtation
+http://www.vibrantcomposites.com/ (cool lazy loading and creative structure)
+http://www.apple.com/music/   (cool lazy loading)
+https://pagekit.com/ (nice layout out and clean website)
+https://developer.oculus.com/ (decent header with menu options)
+http://melanie-f.com/en/ (nice pararlax)
+
+
+
+
+https://e5.onthehub.com/WebStore/ProductsByMajorVersionList.aspx?cmi_cs=1&cmi_mnuMain=bdba23cf-e05e-e011-971f-0030487d8897&ws=534d1258-e0f7-e311-9400-b8ca3a5db7a1&vsro=8&pc=a5b2f2af-4c09-e011-bed1-0030487d8897

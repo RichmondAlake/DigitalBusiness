@@ -1,0 +1,357 @@
+.text-muted {
+    font-size: 12pt;
+}
+
+
+/** Styling for coverpage **/
+
+#coverpage {
+    /**background: url("../img/concert.jpg");**/
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/**  Styling for Company Name in coverpage**/
+
+#coverpage h1 {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 33%;
+    margin-top: 1px auto;
+    display: block;
+    text-align: center;
+    font-family: arial;
+    color: black;
+    font-size: 40pt;
+}
+
+
+/** Styling for Buttons on coverpage **/
+
+#coverpage ul {
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 60%;
+    margin-top: 1px auto;
+}
+
+#coverpage li {
+    display: inline-block;
+}
+
+
+/**seperate div section (Testing) **/
+
+#introSection {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.sections {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+
+/** styling for buttons within the website **/
+
+.button {
+    width: 200px;
+    -webkit-transition: all .7s;
+    -moz-tansition: all .7s;
+    background-color: #e3e3e3;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .5), 1px, 1px, 5px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    /**opacity:.7 !important;**/
+    margin-right: 20%
+}
+
+.button:hover {
+    background-color: #333;
+    color: #e3e3e3;
+}
+
+
+/** Image used for parralax effect **/
+
+#image {
+    /**
+    position: relative;
+    z-index: -1;
+    **/
+}
+
+#lensimage {
+    transition: all 0.4s;
+    margin-top: 12.5%;
+    margin-left: 75%;
+    right: 10%;
+}
+
+.fade {
+    opacity: 0;
+}
+
+.teamBlock {
+    border-radius: 25px;
+    border: 2px solid green;
+    width: 300px;
+    height: 350px;
+}
+
+
+/** Shapes **/
+
+.line {
+    border: 1px solid green;
+    margin-top: 290px;
+    z-index: 1;
+    position: relative;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 0;
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 150px;
+    border: 10px solid green;
+}
+
+.smallerCircle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 0;
+    position: absolute;
+    margin-top: 197px;
+    margin-right: 200px;
+    margin-left: -50px;
+    border: 10px solid green;
+}
+
+.teamIconListGroup {
+    list-style-type: none;
+    margin-right: 20px;
+    padding: 0px;
+}
+
+.teamIconList {
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.timeLineCircle {
+    list-style-type: none;
+}
+
+.timeLineCircleItems {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+
+/** Creatinng hiding effect for product image **/
+
+.hiddenImage {
+    display: none;
+}
+
+
+/** themed button **/
+
+.themedButton {
+    border: 2px solid green;
+    border-radius: 8px;
+    font-family: arial;
+    font-size: 20pt;
+    text-decoration: none;
+    color: green;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-tansition: all 0.3s ease 0s;
+    -ms-transiton: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+
+.themedButton a {
+    color: green;
+    text-decoration: none;
+}
+
+.themedButton:hover {
+    background-color: green;
+    color: white;
+}
+
+.themedButton a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: green;
+}
+
+.pageBlock {
+    width: 50%;
+    height: 50%;
+    float: left;
+    position: relative;
+}
+
+.fullPageBlock {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.textBlock{
+    border: 10px solid #A3DE5D;
+    border-radius: 10px;
+    
+}
+.textBlockRisk{
+    border: 10px solid #ef4545;
+    border-radius: 10px;
+}
+
+span.glyphicon{
+    font-size: 1.3em;
+}
+
+
+/** Budget section **/
+
+#researchBlock {
+    background-color: white; /** #A3DE5D**/
+}
+
+#developmentBlock {
+    background-color: white; /** #A3DE5D**/
+}
+
+#productionBlock {
+    background-color: white; /** #A3DE5D**/
+}
+
+#marketingBlock {
+    background-color: white; /** #A3DE5D**/
+}
+
+#riskBlock {
+    background-color: white; /** #A3DE5D**/
+}
+
+#mitigationBlock {
+    background-color: white; /** #A3DE5D**/
+}
+
+.themeText{
+    font-size:13px;
+}
+
+
+
+/** Creating own custom pulse effect, could use animtae.css as alternative **/
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+@-webkit-keyframes pulse {
+    0% { -webkit-transform: scale(1); }
+    50% { -webkit-transform: scale(1.1); }
+    100% { -webkit-transform: scale(1); }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.pulse{
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+
+/** Handline responsivness **/
+@media screen and (max-width:1790px){
+    .kiteImages{
+        width:200px;
+        height:200px;
+    }
+    #changingText{
+        font-size:10pt;
+        
+    }
+    
+    /** solutionSectionTextArea **/
+    #solutionSectionTextArea1{
+        padding-bottom:30px;
+    }
+    
+    
+    /** Time line responsiceness **/
+    #smallerCircle1{
+        margin-left:-200px;
+        margin-top:215px;
+    }
+     #smallerCircle2{
+        margin-left:-290px;
+        margin-top:215px;
+    }
+     #smallerCircle3{
+        margin-left:-260px;
+        margin-top:215px;
+    }
+    #smallerCircle4{
+        margin-left:-260px;
+        margin-top:215px;
+    }
+    
+    #circle1{
+        margin-top:170px;
+        margin-left:90px;
+    }
+    #circle2{
+        margin-top:170px;
+        margin-left:120px;
+    }
+    #circle3{
+        margin-top:170px;
+        margin-left:120px;
+    }
+    
+}
+
+
+
+
+
+

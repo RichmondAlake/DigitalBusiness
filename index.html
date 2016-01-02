@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+   <meta charset="utf-8">
+   <title>Digital Business Website</title>
+   <meta name = "viewport" content = "width=device-width" initial-scale="1.0">
+   <!-- We can change the name later and include an icon -->
+   <!-- Custom Links (Bootstraps folders not included)-->
+   <script type="text/javascript" src="js/jquery.js"></script>
+   <!-- Bootstrap-->
+   <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+   <link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css">
+   <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css" type="text/css">
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="css/style.css" type="text/css">
+
+   <!--Chart.js CDN -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+   <!--Animate.css CDN -->
+   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+   <!--Jquery CDN-->
+   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+   <!-- Bootstrap CDN -->
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+   <!-- Latest compiled and minified JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+   <!-- Animate.css -->
+   <!--<link rel="stylesheet" href="css/animate/animate.css"  type="text/css" (commented out because we are using cdn)-->
+</head>
+
+
+<body class="container-fluid">
+   <!-- Navigation Bar-->
+   <nav class="navbar navbar-default navbar-fixed-top" stlye="">
+      <div class="container-fluid">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <!-- Place image of brand here -->
+            <a class="navbar-brand" href="#">INFOLENS</a>
+            <!--<img src = "img/pngicons/icon10.png"-->
+         </div>
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+               <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+               <li><a href="#">Link</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right" style="color:#5DEAB7;">
+               <!-- Make navigation header go to sections in page -->
+
+               <li><a style="color:#008000; " href="#">About Us</a></li>
+               <li><a style="color:#008000; " href="#">Learn More</a></li>
+               <li><a style="color:#008000; " href="#" id="solutionsSectionButton">Solutions</a></li>
+               <li><a style="color:#008000; " href="#">Introduction</a></li>
+
+            </ul>
+         </div>
+         <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+   </nav>
+
+
+   <!-- Cover Page section -->
+   <div id="coverpage">
+      <img id="lensimage" class = "kiteImages" src="img/pngicons/icon7.png">
+      <!-- Business Name -->
+      <h1 class="animated fadeIn" style="color:#375932;">INFOLENS</h1>
+      <center>
+         <ul>
+            <li style="padding-right:40px;">
+               <div class="themedButton animated fadeIn" id="introSectionButton">Problems</div>
+            </li>
+            <li style="padding-right:40px;">
+               <div class="themedButton animated fadeIn" id="section2Button">Risk</div>
+            </li>
+            <li style="padding-right:40px;">
+               <div class="themedButton animated fadeIn" id="section3Button">Compeition</div>
+            </li>
+            <li style="padding-right:40px;">
+               <div class="themedButton animated fadeIn" id="section3Button">Finance</div>
+            </li>
+         </ul>
+      </center>
+   </div>
+
+   <!-- Relevant section -->
+   <div id="introSection">
+
+      <!--Adding padding to the top of text as navbar covers text on scroll -->
+      <center>
+         <h1 style="padding-top:50px;">How can we benefit your Company?</h1>
+         <br/>
+         <br/>
+         <br/>
+         <div class = "container-fluid" >
+            <img src="img/pngicons/icon5.png" id="icon5Text" class = "kiteImages" style = "margin-left:20px">
+            <img src="img/pngicons/icon6.png" id="icon6Text" class = "kiteImages" style = "margin-left:20px">
+            <img src="img/pngicons/icon7.png" id="icon7Text" class = "kiteImages" style = "margin-left:20px">
+            <img src="img/pngicons/icon8.png" id="icon8Text" class = "kiteImages" style = "margin-left:20px">
+            <img src="img/pngicons/icon9.png" id="icon9Text" class = "kiteImages" style = "margin-left:20px">
+            <img src="img/pngicons/icon10.png" id="icon10Text" class = "kiteImages" style = "margin-left:20px">
+
+         </div>
+
+         <center>
+            <h1 style="padding-top:50px;font-size:22pt" class = "text-muted" id="changingText">Our software solutions aim to solve a number of your <span style = 'color:#ef4545;'>Problems</span></h1>
+         </center>
+      </center>
+   </div>
+
+
+   <!-- Relevant section -->
+   <div id="solutionsSection" class="sections">
+      <!-- Row to hold solution coloumns-->
+      <div class="row">
+         <div class="col-md-4">
+            <!--Image for solutionsection coloumn 1 -->
+            <center>
+               <img src="img/pngicons/icon1.png">
+               <!-- class = "fade" there seems to be a defect with this-->
+
+               <!-- Text Area -->
+               <h1 style="color: green;">Digital Manual</h1>
+               <h2 class="text-muted" style="line-height:140%; padding-bottom:40px;">
+               
+               Engineers and technicians often have to work with many different tools
+               and perform tasks which they may not be completely familiar with. The use of AR software will allow
+               workers to reference instructions for specific tasks so that they can be completed efficiently and 
+               with certainty. 
+               
+               </h2>
+               <li class="themedButton" id="demo01" href="#animatedModal" style = "list-style-type:none;">Click Here</li>
+            </center>
+         </div>
+         <!--Modal Section -->
+         <!--DEMO01-->
+         <div id="animatedModal">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+            <div class="close-animatedModal">
+               <!-- Repalce with icons -->
+               <h2>CLOSE</h2>
+            </div>
+
+            <div class="modal-content">
+               <!--Your modal content goes here-->
+               <!-- first div section -->
+               <div style="width:50%; height:50%; float:left; border:2px solid white; ">
+                  <center>
+                     <h2>Description</h2></center>
+                  <h3 class="text-muted" style="padding-left: 30px; line-height:140%">
+                  <center>
+                  <br>
+                  <br>
+                  Our Augmented Digital Manuals embrace the latest in Augmented tecehnology and 3D modelling in order to provide bespoke customisation of your company's machinery and all instructions it embodies.
+                  The AR software will provide textual descriptions and also 3D graphics in order to help give an understanding of how a task should be carried out.
+                  
+                  <h3 style = "text-decoration: underline;"> Benefits</h3>
+
+                  <!-- use of icons, arrows -->
+                  <h3 class="text-muted" style="text-align:left; line-height:150%;">
+                  Complete tasks with confidence, certainty and more importantly, efficiently
+                  <br>
+                  Eliminate the need to refer to documentations, paper manuals or even collegaues
+                  <br>
+                  Significant increase in productivity
+                  </h3>
+
+                  </center>
+                  </h3>
+               </div>
+
+               <!-- Second div section -->
+               <div style="width:50%; height:50%; float:left;">
+                  <center>
+                     <h2>Demo Video</h2>
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/MDtxOmtVZGs" frameborder="0" allowfullscreen></iframe>
+                  </center>
+               </div>
+
+               <!-- Third div section 
+               <div style = "width:50%; height:50%; float:left;">
+                  <center>
+                  <h2>Graph Section</h2>
+                  
+                  <img src = "img/productivity.jpg">
+                  </center>
+               </div>
+               -->
+               <!-- Fourth div section -->
+               <div style="width:100%; height:50%;">
+                  <center>
+                     <h2 style="padding-top:400px">Pricing Section</h2>
+                  </center>
+                  <br>
+                  <center>
+                     <table style="padding-top:20px; padding-right:200px; width:70%;" class="table table-striped table-bordered">
+                        <tr style="background-color:#31C6DC;">
+                           <td>Product</td>
+                           <td>Inital Payment</td>
+                           <td>Bespoke Integration</td>
+                           <td>Expansion</td>
+                           <td>Updates</td>
+                        </tr>
+
+                        <tr style="background-color:#95E06F;">
+
+                           <td><strong>Digital Manual Solution</strong></td>
+                           <td><strong>£10,000</strong></td>
+                           <td><strong>£50,000</strong></td>
+                           <td><strong>£20,000</td></strong>
+                        <td><strong>Free</strong></td>
+
+                        </tr>
+
+                        <tr>
+                           <td>Maintenance</td>
+                           <td>£10,000</td>
+                           <td>£50,000</td>
+                           <td>£20,000</td>
+                           <td>Free</td>
+                        </tr>
+
+                        <tr>
+                           <td>Inspection Software Solution</td>
+                           <td>£10,000</td>
+                           <td>£50,000</td>
+                           <td>£20,000</td>
+                           <td>Free</td>
+                        </tr>
+                     </table>
+                  </center>
+               </div>
+            </div>
+         </div>
+
+
+
+         <div class="col-md-4">
+            <center>
+               <img src="img/pngicons/icon2.png">
+               <!-- class = "fade" there seems to be a defect with this-->
+
+               <!-- Text Area -->
+               <h1 style="color: green;">Maintenance</h1>
+               <div style="padding-bottom:30px;">
+                  <h2 class="text-muted" style="line-height:140%;">
+               In order to ensure that equipment is fully functional and does not deteriorate to become dangerous for employees or cause damage to products being manufactured, 
+               it is important to frequently update a maintenance log. 
+               
+               </h2>
+               </div>
+                  <li class="themedButton" id="demo02" href="#lightSpeedIn" style = "list-style-type:none;">Click Here</li>
+            </center>
+            </div>
+
+            <!--Modal Section -->
+            <!--DEMO02-->
+            <div id="lightSpeedIn">
+               <div class="close-lightSpeedIn">
+                  <h2>CLOSE</h2></div>
+
+               <div class="modal-content">
+                  <!--Your modal content goes here-->
+                  <!-- first div section -->
+                  <div style="width:50%; height:50%; float:left; border:2px solid white; ">
+                     <center>
+                        <h2>Description</h2></center>
+                     <h3 class="text-muted" style="padding-left: 30px; line-height:140%">
+                  <center>
+                  <br>
+                  <br>
+                  There is a general problem associated with the retrievial of specific information relating to mechanical parts. 
+                  However with our AR software, annotations can be assigned to work equipment to recall all information allocated to a specific piece of equipment
+                  just by the glance of an eye. Any further notes can also be added to equipment including risk of failure, intensity of use, and operating environment.
+                  
+                  <h3 style = "text-decoration: underline;"> Benefits</h3>
+
+                     <!-- use of icons, arrows -->
+                     <h3 class="text-muted" style="text-align:left; line-height:150%;">
+                  Save time when retrieving information Our. software places information right where you need it
+                  <br>
+                  Access information when and where you need it
+                  <br>
+                  Significant increase in productivity
+                  </h3>
+                     </center>
+                     </h3>
+                  </div>
+
+                  <!-- Second div section -->
+                  <div style="width:50%; height:50%; float:left;">
+                     <center>
+                        <h2>Demo Video</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MDtxOmtVZGs" frameborder="0" allowfullscreen></iframe>
+                     </center>
+                  </div>
+
+                  <!-- Third div section 
+               <div style = "width:50%; height:50%; float:left;">
+                  <center>
+                  <h2>Graph Section</h2>
+                  
+                  <img src = "img/productivity.jpg">
+                  </center>
+               </div>
+               -->
+                  <!-- Fourth div section -->
+                  <div style="width:100%; height:50%;">
+                     <center>
+                        <h2 style="padding-top:400px">Pricing Section</h2>
+                     </center>
+                     <br>
+                     <center>
+                        <table style="padding-top:20px; padding-right:200px; width:70%;" class="table table-striped table-bordered">
+                           <tr style="background-color:#31C6DC;">
+
+                              <td>
+                                 <center>Product</center>
+                              </td>
+                              <td>
+                                 <center>Inital Payment</center>
+                              </td>
+                              <td>
+                                 <center>Bespoke Integration</center>
+                              </td>
+                              <td>
+                                 <center>Expansion</center>
+                              </td>
+                              <td>
+                                 <center>Updates</center>
+                              </td>
+
+                           </tr>
+
+                           <tr>
+
+                              <td>Digital Manual Solution></td>
+                              <td>£10,000
+                              </td>
+                              <td>£50,000
+                              </td>
+                              <td>£20,000</td>
+                              <td>Free
+                              </td>
+
+                           </tr>
+
+                           <tr style="background-color:#95E06F;">
+                              <td><strong>Maintenance</td></strong>
+                                 <td><strong>£10,000</td></strong>
+                                    <td><strong>£50,000</td></strong>
+                                       <td><strong>£20,000</td></strong>
+                                          <td><strong>Free</td></strong>
+                           </tr>
+
+                           <tr>
+                              <td>Inspection Software Solution</td>
+                              <td>£10,000</td>
+                              <td>£50,000</td>
+                              <td>£20,000</td>
+                              <td>Free</td>
+                           </tr>
+                        </table>
+                     </center>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-4">
+               <center>
+                  <img src="img/pngicons/icon3.png">
+                  <!-- class = "fade" there seems to be a defect with this-->
+                  <!-- Text Area -->
+                  <h1 style="color: green;">Inspection/Solution</h1>
+                  <h2 class="text-muted" style="line-height:140%; padding-bottom:20px; ">
+               
+               <span style = "color:red">
+               Engineers and technicians often have to work with many different tools
+               and perform tasks which they may not be completely familiar with. The use of AR software will allow
+               workers to reference instructions for specific tasks so that they can be completed efficiently and 
+               with certainty. 
+               </span>
+              
+               </h2>
+                  <li class="themedButton" id="demo03" href="#thirdModal" style = "list-style-type:none;">Click Here</li>
+               </center>
+            </div>
+
+            <!--Modal Section -->
+            <!--DEMO03-->
+            <div id="thirdModal">
+               <div class="close-thirdModal">
+                  <h2>CLOSE</h2></div>
+
+               <div class="modal-content">
+                  <!--Your modal content goes here-->
+                  <!-- first div section -->
+                  <div style="width:50%; height:50%; float:left; border:2px solid white; ">
+                     <center>
+                        <h2>Description</h2></center>
+                     <h3 class="text-muted" style="padding-left: 30px; line-height:140%">
+                  <center>
+                  <br>
+                  <br>
+                 Within large factories it is almost guaranteed that there will be a vast number of equipment and tools which will be used on a daily basis.
+                 For employees, especially new employees it may be a difficult task to understand the functionality of every single item. Annotations can be
+                 tagged onto equipment to allow employees to reference all the information associated with a specific item. In turn creating a more collaborative 
+                 working environment. This problem is fairly serious as it is important for employees to familiarise themselves with all equipment, and perhaps 
+                 learn more about newly installed equipment. Not knowing what a piece of equipment does can be dangerous and unproductive
+                  </center>
+                  </h3>
+                  </div>
+
+                  <!-- Second div section -->
+                  <div style="width:50%; height:50%; float:left;">
+                     <center>
+                        <h2>Demo Video</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MDtxOmtVZGs" frameborder="0" allowfullscreen></iframe>
+                     </center>
+                  </div>
+
+                  <!-- Third div section 
+               <div style = "width:50%; height:50%; float:left;">
+                  <center>
+                  <h2>Graph Section</h2>
+                  
+                  <img src = "img/productivity.jpg">
+                  </center>
+               </div>
+               -->
+                  <!-- Fourth div section -->
+                  <div style="width:100%; height:50%;">
+                     <center>
+                        <h2 style="padding-top:400px">Pricing Section</h2>
+                     </center>
+                     <br>
+                     <center>
+                        <table style="padding-top:20px; padding-right:200px; width:70%;" class="table table-striped table-bordered">
+                           <tr style="background-color:#31C6DC;">
+                              <td>Product</td>
+                              <td>Inital Payment</td>
+                              <td>Bespoke Integration</td>
+                              <td>Expansion</td>
+                              <td>Updates</td>
+                           </tr>
+
+                           <tr>
+
+                              <td>Digital Manual Solution></td>
+                              <td>£10,000</strong>
+                              </td>
+                              <td>£50,000</strong>
+                              </td>
+                              <td>£20,000</td>
+                              <td>Free</strong>
+                              </td>
+
+                           </tr>
+
+                           <tr>
+                              <td>Maintenance</td>
+                              <td>£10,000</td>
+                              <td>£50,000</td>
+                              <td>£20,000</td>
+                              <td>Free</td>
+                           </tr>
+
+                           <tr style="background-color:#95E06F;">
+                              <td><strong>Inspection Software Solution</strong></td>
+                              <td><strong>£10,000</strong></td>
+                              <td><strong>£50,000</strong></td>
+                              <td><strong>£20,000</strong></td>
+                              <td><strong>Free</strong></td>
+                           </tr>
+                        </table>
+                     </center>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+
+
+
+
+      <!-- Competition Section -->
+      <div id="competitionSection" class="sections">
+         <center>
+            <h1>Who is already doing this? Competiton Analysis</h1>
+
+            <div style="padding-top:50px">
+               <!-- Insert table here-->
+               <table class="table table-striped table-bordered" style="width:70%">
+                  <!-- header cloumnn -->
+                  <tr>
+                     <td><strong><center>Product</center></strong></td>
+                     <td><strong><center>Product Type</center></strong></td>
+                     <td><strong><center>Features</center></strong></td>
+                     <td><strong><center>Platform</center></strong></td>
+                     <td><strong><center>Availability & Cost</center></strong></td>
+                     <td><strong><center>Markets</center></strong></td>
+                  </tr>
+
+                  <tr>
+                     <td class="productName">SAP AR<span class="hiddenImage"><img src = "img/brandfolder/sap.png" width = "400px" height = "400px"></span></td>
+                     <td>App</td>
+                     <td>
+                        <ol style="list-style-type:none;">
+                           <li>Navigation</li>
+                           <li>Step by Step instructions</li>
+                           <li>Call for assistance</li>
+                           <li>Voice Commands</li>
+                        </ol>
+                     </td>
+                     <td>
+                        <li style="list-style-type:none;">
+                           <center>iOS</center>
+                        </li>
+                        <li style="list-style-type:none;">
+                           <center>Android</center>
+                        </li>
+
+                     </td>
+                     <td>
+                        <center>
+                           Not yet launched - Trial available for SAP Mobile Platform members <span style="color:red">$600</span>
+                        </center>
+                     </td>
+                     <td>
+                        <center>
+                           Technician
+                           <br> Logistics
+                        </center>
+                     </td>
+                  </tr>
+
+                  <tr>
+                     <td>
+                        <center>Scope</center>
+                     </td>
+                     <td>
+                        <center>Glasses</center>
+                     </td>
+                     <td>
+                        <ul style="list-style-type:none;">
+                           <li>Step by step instructions</li>
+                           <li>3D Interactive modelling</li>
+                        </ul>
+                     </td>
+
+                     <td>
+                        <li style="list-style-type:none;">
+                           <center>Android</center>
+                        </li>
+                     </td>
+                     <td>Not yet launched
+                        <br> Glasses on their own cost <span style="color:red">£519.99</span></td>
+                     <td>
+                        <li>Manufacturing</li>
+                        <li>Training</li>
+                     </td>
+                  </tr>
+
+                  <tr>
+                     <td>MeView</td>
+                     <td>App</td>
+                     <td>
+                        <ul>
+                           <li>Step by step instructions</li>
+                        </ul>
+                     </td>
+                     <td>
+                        <ul>
+                           <li>iOS</li>
+                        </ul>
+                     </td>
+                     <td>Free</td>
+                     <td>
+                        <ul>
+                           <li>Technician</li>
+                        </ul>
+                     </td>
+                  </tr>
+
+                  <tr>
+                     <td>NGRAIN</td>
+                     <td>
+                        <ul>
+                           <li>App</li>
+                           <li>Glasses</li>
+                        </ul>
+                     </td>
+                     <td>
+                        <ul>
+                           <li>Step by steo instructions</li>
+                           <li>3D Interactive modelling</li>
+                        </ul>
+                     </td>
+                     <td>
+                        <ul>
+                           <li>Android</li>
+                           <li>iOS</li>
+                           <li>Windows</li>
+                        </ul>
+                     </td>
+                     <td>
+                        Available to enterprises and industrial.
+                        <br> <span>£519.99</td></span>
+                        <td>
+                           <ul>
+                              <li>Manufacturing</li>
+                              <li>Training</li>
+                              <li>Technician</li>
+                           </ul>
+                        </td>
+                  </tr>
+               </table>
+            </div>
+         </center>
+
+      </div>
+
+
+
+      <!-- Finance Section -->
+      <div id="financeSection" class="sections">
+
+         <div>
+            <center>
+               <h1>Why invest in this new venture, why invest in the future?</h1>
+               <!-- SHow images related to items clicked -->
+               <h2 id="timeLineText1" style="padding-top:30px"> 
+            The augmented reality and virtual reality industry is predicted to be<br>
+            valued at a staggering <span style = "color:red;">$150 billion</span> by<span style = "color:red;"> 2020</span>
+            
+            </h2>
+            </center>
+            <!-- Time line -->
+            
+            <ul class="timeLineCircle">
+               <li class="timeLineCircleItems">
+                  <div class="smallerCircle" id="smallerCircle1"></div>
+               </li>
+               <li class="timeLineCircleItems">
+                  <div class="circle" id="circle1"></div>
+               </li>
+               <li class="timeLineCircleItems">
+                  <div class="smallerCircle" id="smallerCircle2"></div>
+               </li>
+               <li class="timeLineCircleItems">
+                  <div class="circle" id="circle2"></div>
+               </li>
+               <li class="timeLineCircleItems">
+                  <div class="smallerCircle" id="smallerCircle3"></div>
+               </li>
+               <li class="timeLineCircleItems">
+                  <div class="circle" id="circle3"></div>
+               </li>
+               <li class="timeLineCircleItems">
+                  <div class="smallerCircle" id="smallerCircle4"></div>
+               </li>
+               <li class="timeLineCircleItems">
+                  <div class="circle" id="circle4"></div>
+               </li>
+
+            </ul>
+            <div class="line" style="margin-top:200px">
+            </div>
+            <center>
+               <div style="padding-top:150px">
+                  <button class="themedButton" id="finiancialModalButton" href="#finiancialModal">Why?</button>
+                  <button class="themedButton" id="finiancialModalHowButton" href="#finiancialModalHow">How?</button>
+               </div>
+            </center>
+         </div>
+
+
+      </div>
+
+      <!-- Finiancial Modal (WHY) -->
+      <div id="finiancialModal">
+
+         <div class="close-finiancialModal">
+            <h2>CLOSE</h2>
+         </div>
+
+         <div class="modal-content">
+            <center>
+               <h2> Why the Augmented Reality industry</h2>
+
+               <div class="container-fluid">
+                  <div class="col-md-12">
+                     <img src="img/2020.jpg" width="500px" height="300px" style="float:left; margin-top:40px;">
+                     <div style="float:right; margin-top:-290px;">
+                        <h3 class="text-muted">AR is an industry which is expected to grow rapidly, there are current methods<br> of applicability of this technology to our everyday life,<br> 
+                  but there is still vast amount of potential and growth to come from this technology,<br> as we as a collective find intuitive methods of exploiting this technology. <br>
+                  The AR industry has been predicted to be worth over 100s of billions in a few years,<br> and major revenue is seen coming from AR Hardware. Our business idea focuses on<br>
+                  developing Software product that allows the utilisation of AR hardware.<br>
+                  We are tapping into the revenue potential predicted for the AR Hardware sector and also in the AR Enterprise sector. </h3>
+                        <br/>
+                        <h3 class="text-muted"> The Augmented reality market is set to be valued at $100 billion by 2020</h3>
+                        <h4 class="text-muted">DigiCapital, ABIReseach</h4>
+                        <!-- can replace with icons-->
+                     </div>
+                  </div>
+
+            </center>
+            <br>
+
+
+
+            <center>
+               <h2>Reinforced Market Support</h2></center>
+            <div class="fullPageBlock">
+               <div style="margin-top:50px">
+                  <span>Augmented Reality</span><img src="img/handshake.png"><span>Mobile Subscriptions</span>
+               </div>
+               <br>
+               <h2 class="text-muted">
+                     <center>   
+                     The AR market in particular shares a strong correlation<br> with the mobile subscription market. <br>
+                     Increase in mobile subscription creates the appropriate<br> business environment for the AR App market to thrive. <br>
+                     As we can see an increase in the penetration of smartphone<br> and mobile device into the commercial market we can also<br>
+                     see an increase in the utilisation of AR to present media content and provide entertainment.
+                     </center> 
+                  </h2>
+            </div>
+
+            <div class="fullPageBlock">
+               <center>
+                  <img src="img/linked.png" style="margin-top:50px;">
+
+               </center>
+
+            </div>
+
+
+
+            <div class="fullPageBlock" style="margin-top:30px">
+
+               <h2 style="padding-left:30px;">Augmented Reality and the Internet of Things</h2>
+               <h2 class="text-muted">
+                  <div style = "padding:20px;">
+                  <center>
+                     IOT is the main focus of industrial manufacturing industry, alongside big data. Gaining informational data from machinery 
+                  that are connected is very useful within industrial sectors, as it helps with maintenance of equipment and improvement of services delivered.
+                  But with a lot of data collected that are limited to the space of our Monitors and device displays, visual representation of big data can become a complication.
+                  Augmented reality solves this problem by utilising the space that is essentially our reality, in fact limitless space. We can display information based on location 
+                  and time, ensuring the user will always get the relevant information.
+               </center>
+               </div>
+               </h2>
+            </div>
+
+            <div class="fullPageBlock" style="margin-top:30px">
+               <center>
+                  <h2>AR SOFTWARE</h2>
+               </center>
+               <img src="img/sector.jpg" width="550px" height="350px" style="padding-top:20px;">
+            </div>
+
+
+
+
+            </div>
+            <!-- <canvas id="countries" width="600" height="400"></canvas> -->
+         </div>
+
+      </div>
+
+
+
+      <!-- Finicial Modal (HOW) -->
+      <div id="finiancialModalHow">
+         <div class="close-finiancialModalHow">
+            <h2>CLOSE</h2>
+         </div>
+
+         <div class="modal-content">
+            <div class="container">
+               <center>
+                  <h2>How does our business make money?</h2>
+               </center>
+
+               <div>
+                  <!-- Pricing Section-->
+                  <table class="table table-striped table-bordered">
+                     <tr style="background-color:#31C6DC;">
+                        <td>Product</td>
+                        <td>Inital Payment</td>
+                        <td>Bespoke Integration</td>
+                        <td>Expansion</td>
+                        <td>Updates</td>
+                     </tr>
+
+                     <tr>
+
+                        <td>Digital Manual Solution</td>
+                        <td>£10,000</strong>
+                        </td>
+                        <td>£50,000</strong>
+                        </td>
+                        <td>£20,000</td>
+                        <td>Free</strong>
+                        </td>
+
+                     </tr>
+
+                     <tr>
+                        <td>Maintenance</td>
+                        <td>£10,000</td>
+                        <td>£50,000</td>
+                        <td>£20,000</td>
+                        <td>Free</td>
+                     </tr>
+
+                     <tr>
+                        <td>Inspection Software Solution</td>
+                        <td>£10,000</td>
+                        <td>£50,000</td>
+                        <td>£20,000</td>
+                        <td>Free</td>
+                     </tr>
+                  </table>
+               </div>
+
+               <center>
+                  <div style="width:500px; height:250px;">
+                     <!-- Written Block -->
+                     <h3 class="text-muted">
+                        The business generates income from the purchase of our AR software applications.<br>General purchase will be made by major manufacturing companies. 
+                        We sell the software solutions either as a package or a single sale.<br>
+                        The solutions chosen are based on the requirements of the buyer. An initial sale price will be paid up front, this gives the buying party rights to utilise the functionality available on the software solution bought.<br>
+                        Moving forward our company will establish a relationship with the buyer by offering regular updates to the software solutions for free. <br>
+                        More revenue is obtained from customising software solution to meet bespoke needs of the clients.<br>
+                        Any major functionality integration that is needed by the client will be followed by a payment, this also include bespoke requirements.
+   
+                     </h3>
+                  </div>
+               </center>
+
+               <table class="table table-bordered" style="margin-top:40px;">
+                  <tr>
+                     <td>AR Industry value (2020)</td>
+                     <td>$100 Billion</td>
+                  </tr>
+
+                  <tr>
+                     <td>AR Hardware (Revenue % AR Industry)</td>
+                     <td>40%</td>
+                  </tr>
+
+                  <tr>
+                     <td>AR Enterprise (Revenue % AR Industry)</td>
+                     <td>10%</td>
+                  </tr>
+
+                  <tr>
+                     <td>Infolens revenue source potential (2020)</td>
+                     <td>50% ($50 billion)</td>
+                  </tr>
+               </table>
+
+
+            </div>
+
+
+         </div>
+
+      </div>
+
+
+
+      <!-- Budgeting Section-->
+      <div class="sections">
+         
+         <!-- 
+         <li class="timeLineCircleItems" style="position:absolute; margin-top:15%; margin-left:51.25%">
+            <div class="circle" style="z-index:10; background-color:transparent;" id="circleFloat"></div>
+         </li>
+         -->
+         <div id="researchBlock" class="pageBlock">
+            <center>
+               <h3 class="text-muted" style = "font-size:20pt"><span class = "glyphicon glyphicon-search"></span> Research</h3></center>
+                  
+               <div>
+                  <h2 class = "text-muted">
+                        An initial reserach will be carried out to analyse existing AR applications. 
+                        The research will highlight benefits and drawbacks of existing AR applications. 
+                        The budget within the stage will be used to purchase materials needed for research such as applicaitons, devices and data analytics.
+                        The benefit from the research stage will be shown in the new feature ideas and solutions we come up with in both current and future products.
+                        <br>
+                        <br>
+                        <span style = "color:red; font-weight:bold; text-decoration:underline;">Budget: £6,000</span>
+                  </h2>
+                  
+                  
+               </div>
+
+         </div>
+
+
+         <div id="developmentBlock" class="pageBlock">
+            <center>
+                <h3 class="text-muted" style = "font-size:20pt"><span class = "glyphicon glyphicon-wrench"></span> Development</h3></center>
+            </center>
+         </div>
+
+
+         <div id="productionBlock" class="pageBlock">
+            <center>
+                <h3 class="text-muted" style = "font-size:20pt"><span class = "glyphicon glyphicon-blackboard"></span> Production</h3></center>
+         </div>
+
+
+         <div id="marketingBlock" class="pageBlock">
+            <center>
+               <h3 class="text-muted" style = "font-size:20pt"><span class = "glyphicon glyphicon-stats"></span> Marketing</h3></center>
+         </div>
+      </div>
+
+
+      <!-- Risk and Mitigation Section-->
+
+      <div id="riskandMitigationSection" class="sections">
+         
+         <center><h2 style="margin-left:255px;">Nothing comes without <span style = "color:#ef4545">Risks</span>, but we will <span style = "color:#a0ef45">Mitigate</span> them.</h2></center>
+         <!-- Risk -->
+         <div class="fullPageBlock" id="riskBlock">
+            <div class="container">
+               <!--
+               <div>
+                  <h2 style="margin-left:255px;">Nothing comes without <span style = "color:#ef4545">Risks</span>, but we will <span style = "color:#a0ef45">Mitigate</span> them</h2>
+               </div>
+               -->
+
+               <div id = "firstRisk" class="textBlockRisk" style="width:400px; height200px; margin-top:20px; padding-left:5px; margin-left:30px;">
+                  <h3 class="text-muted" style="color:black; padding-left:10px;">
+                     Possibility of competition developing similar systems to the software solutions we offer. <br>
+                     This is a high possibility as we operate within a market that is volatile and provides several opportunities.
+                  </h3>
+               </div>
+
+               <div id = "secondRisk" class="textBlockRisk" style="width:300px; height200px; margin-top:40px; padding-left:5px; margin-left:200px;">
+                  <h3 class="text-muted" style="color:black; padding-left:5px;">
+                     Predictions on the Augmented Reality market and industry may fail to suffice.
+                  </h3>
+               </div>
+
+            </div>
+         </div>
+
+
+         <!-- Mitigation -->
+         <div class="fullPageBlock" id="mitigationBlock">
+            <div class="container">
+               
+                  <!--<h2 style="margin-left:-10px; padding:0;">,but we will <span style = "color:#a0ef45">Mitigate</span> them</h2>-->
+
+               <div id = "firstMitigation" class="textBlock" style="width:400px; height200px; margin-top:50px; padding-left:5px;">
+                  <h3 class="text-muted" style="color:black; padding-left:5px;">
+                     We aim to constantly update our products with the latest technologies within the field, <br>
+                     making them highly sustainable within a competitive market. 
+                  </h3>
+               </div>
+
+               <div id = "secondMitigation" class="textBlock" style="width:400px; height200px; margin-top:80px; padding-left:5px; margin-left:200px">
+                  <h3 class="text-muted" style="color:black; padding-left:5px;">
+                     Within our company we will create an idea lab where will look at expandability of our products into other businesses and technologies.<br>
+                     This will be beneficial in a situations where we have to change our business models.
+                  </h3>
+               </div>
+
+            </div>
+
+         </div>
+      </div>
+
+
+      <!--Team Section -->
+      <div class="sections" style="margin-top:50px">
+         <div class="container">
+            <div class="row">
+               <center>
+                  <div class="textBlock" style="width:600px; height:200px;">
+                     <!-- Image section -->
+                     <div style="width:200px; height:150px; border: solid 2px black; float:left; margin-left:30px; margin-top:20px">
+
+                     </div>
+
+                     <!-- Profile info section -->
+                     <center>
+                        <div style="margin-left:200px">
+                           <ul style="list-style:none; text-align:left;">
+                              <li>
+                                 <h3 class="themeText">Richmond Alake</h3></li>
+                              <!--"glyphicon glyphicon-user"-->
+                              <li>
+                                 <h3 class="themeText"> Project Manager/ Front-end Developer</h3></li>
+                              <li>
+                                 <h3 class="themeText"></span> "Innovatie thinker"</h3></li>
+                              <li>
+                                 <ul class="teamIconListGroup">
+                                    <a href="#">
+                                       <li class="teamIconList"><img src="img/icons/facebook48.png"></li>
+                                    </a>
+                                    <a href="#">
+                                       <li class="teamIconList"><img src="img/icons/Instagram48.png"></li>
+                                    </a>
+                                    <a href="#">
+                                       <li class="teamIconList"><img src="img/icons/mail48.png"></li>
+                                    </a>
+                                    <a href="#">
+                                       <li class="teamIconList"><img src="img/icons/youtube48.png"></li>
+                                    </a>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </div>
+                     </center>
+                  </div>
+               </center>
+
+            </div>
+            
+            
+            
+
+
+
+
+
+         </div>
+
+      </div>
+
+   </div>
+
+
+
+
+   <!--Custom JS -->
+   <script type="text/javascript" src="js/customjs.js"></script>
+   <script type="text/javascript" src="js/animatedModal.min.js"></script>
+</body>
+
+
+
+
+</html>

@@ -2,6 +2,10 @@
     font-size: 12pt;
 }
 
+body{
+    overflow-x:hidden;
+}
+
 
 /** Styling for coverpage **/
 

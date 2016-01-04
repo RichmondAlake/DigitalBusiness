@@ -104,17 +104,70 @@ $('#secondMitigation').hover(function (){
 
 
     //////////////////////// Auto scroll effect/////////////////////////////
-    $("#introSectionButton").on('click', function() {
-        //alert('working');
-        $('html, body').animate({
-            scrollTop: $("#introSection").offset().top
-        }, 1000);
-    });
 
     $("#solutionsSectionButton").on('click', function() {
         //alert('working');
         $('html, body').animate({
             scrollTop: $("#solutionsSection").offset().top
+        }, 1000);
+    });
+    
+    $("#problemSectionButton").on('click', function() {
+        //alert('working');
+        $('html, body').animate({
+            scrollTop: $("#introSection").offset().top
+        }, 1000);
+    });
+    
+    $("#competitionSectionButton").on('click', function() {
+        //alert('working');
+        $('html, body').animate({
+            scrollTop: $("#competitionSection").offset().top
+        }, 1000);
+    });
+    
+    $("#teamSectionButton").on('click', function() {
+        //alert('working');
+        $('html, body').animate({
+            scrollTop: $("#teamSection").offset().top
+        }, 1000);
+    });
+    
+     $("#investmentSectionButton").on('click', function() {
+        //alert('working');
+        $('html, body').animate({
+            scrollTop: $("#financeSection").offset().top
+        }, 1000);
+    });
+    
+    
+    $("#riskNavButton").on('click', function() {
+        //alert('working');
+        $('html, body').animate({
+            scrollTop: $("#riskandMitigationSection").offset().top
+        }, 1000);
+    });
+    
+    
+    $("#problemNavButton").on('click', function() {
+        //alert('working');
+        $('html, body').animate({
+            scrollTop: $("#introSection").offset().top
+        }, 1000);
+    });
+    
+        
+    $("#competitonNavButton").on('click', function() {
+        //alert('working');
+        $('html, body').animate({
+            scrollTop: $("#competitionSection").offset().top
+        }, 1000);
+    });
+    
+    $("#financeNavButton").on('click', function() {
+        //alert('working');
+        $('html, body').animate({
+            scrollTop: $("#financeSection").offset().top
         }, 1000);
     });
     

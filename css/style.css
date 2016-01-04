@@ -374,6 +374,11 @@ span.glyphicon{
         margin-left:120px;
     }
     
+    /**Cover Page image **/
+    #lensimage{
+        margin-top: 250px;
+        margin-left:850px;
+    }
 }
 
 

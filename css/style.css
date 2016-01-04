@@ -4,6 +4,7 @@
 
 body{
     overflow-x:hidden;
+    min-width:1280px;
 }
 
 .themeTextBig{
@@ -121,7 +122,7 @@ body{
     right: 10%;
 }
 
-.fade {
+.fadeOnScroll {
     opacity: 0;
 }
 
@@ -381,6 +382,14 @@ span.glyphicon{
     }
 }
 
+
+@media screen and (max-width:1280px){
+    .kiteImages{
+        width:170px;
+        height:180px;
+    }
+    
+}
 
 
 

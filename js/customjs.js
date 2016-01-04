@@ -47,38 +47,6 @@ $(document).ready(function() {
     }
 
 
-
-    /////////////////////////Fade in Scrolling Effect//////////////
-    $(window).on("load", function() {
-
-        function fade() {
-            $('.fade').each(function() {
-                /*check the location of the desired element */
-                var objectBotom = $(this).offset().top + $(this).outerHeight();
-                var windowBottom = $(window).scrollTop() + $(window).innerHeight();
-
-
-                /** if the object can be seen then fade it in */
-                if (objectBotom < windowBottom) {
-                    if ($(this).css('opacity') == 0) {
-                        $(this).fadeTo(500, 1);
-                    }
-                    else {
-                        if ($(this).css('opacity') == 1) {
-                            $(this).fadeTo(500, 0);
-
-                        }
-                    }
-                }
-            });
-        }
-        fade(); // fade in completly visible elements on page load
-        $(window).scroll(function() {
-            fade();
-        }); //Fade in elements during scroll
-    });
-    ///////////////////////////////////////////////////////////////////////////////
-
 ///////////////////////////Creating pulse effect for mitigation risk hoover and vice versa///////////////
 $('#firstRisk').hover(function (){
     //alert("here");

@@ -36,8 +36,38 @@ $(document).ready(function() {
         animatedOut: 'zoomOut',
         color: '#fff'
     });
+    
+    $("#researchModalButton").animatedModal({
+        modalTarget: 'researchModal',
+        animatedIn: 'zoomIn',
+        animatedOut: 'zoomOut',
+        color: '#fff'
+    });
 
-
+    $("#developmentModalButton").animatedModal({
+        modalTarget: 'developmentModal',
+        animatedIn: 'zoomIn',
+        animatedOut: 'zoomOut',
+        color: '#fff'
+    });
+    
+    $("#productionModalButton").animatedModal({
+        modalTarget: 'productionModal',
+        animatedIn: 'zoomIn',
+        animatedOut: 'zoomOut',
+        color: '#fff'
+    });    
+    
+    $("#marketingModalButton").animatedModal({
+        modalTarget: 'marketingModal',
+        animatedIn: 'zoomIn',
+        animatedOut: 'zoomOut',
+        color: '#fff'
+    });    
+        
+    
+    
+    
     //////////////////Parrallax effect////////////////////////////   
     var ypos, image; // variabales for the yposition and the image
     function parallax() {

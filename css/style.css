@@ -247,8 +247,8 @@ body{
 }
 
 .textBlock{
-    border: 10px solid #A3DE5D;
-    border-radius: 10px;
+    border: 5px solid #A3DE5D;
+    border-radius: 2px;
     
 }
 
@@ -258,8 +258,8 @@ body{
     
 }
 .textBlockRisk{
-    border: 10px solid #ef4545;
-    border-radius: 10px;
+    border: 5px solid #ef4545;
+    border-radius: 2px;
 }
 
 span.glyphicon{
@@ -387,6 +387,15 @@ span.glyphicon{
     .kiteImages{
         width:170px;
         height:180px;
+    }
+    
+}
+
+
+@media screen and (max-width:1517px){
+     #lensimage{
+        margin-top: 200px;
+        margin-left:900px;
     }
     
 }

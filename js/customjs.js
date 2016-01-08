@@ -150,6 +150,13 @@ $('#secondMitigation').hover(function (){
     $("#problemNavButton").on('click', function() {
         //alert('working');
         $('html, body').animate({
+            scrollTop: $("#problemSection").offset().top
+        }, 1000);
+    });
+    
+    $("#benefitsNavButton").on('click', function() {
+        //alert('working');
+        $('html, body').animate({
             scrollTop: $("#introSection").offset().top
         }, 1000);
     });

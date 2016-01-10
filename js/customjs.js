@@ -64,8 +64,35 @@ $(document).ready(function() {
         animatedOut: 'zoomOut',
         color: '#fff'
     });    
-        
     
+    
+    $("#demoSAP").animatedModal({
+        modalTarget: 'sapModal',
+        animatedIn: 'zoomIn',
+        animatedOut: 'zoomOut',
+        color: '#fff'
+    });
+        
+        $("#demoScope").animatedModal({
+        modalTarget: 'scopeModal',
+        animatedIn: 'zoomIn',
+        animatedOut: 'zoomOut',
+        color: '#fff'
+    });
+    
+        $("#demoMeview").animatedModal({
+        modalTarget: 'meviewModal',
+        animatedIn: 'zoomIn',
+        animatedOut: 'zoomOut',
+        color: '#fff'
+    });
+    
+        $("#demoNgrain").animatedModal({
+        modalTarget: 'ngrainModal',
+        animatedIn: 'zoomIn',
+        animatedOut: 'zoomOut',
+        color: '#fff'
+    });
     
     
     //////////////////Parrallax effect////////////////////////////   

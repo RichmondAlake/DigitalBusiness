@@ -350,7 +350,7 @@ span.glyphicon{
         margin-top:215px;
     }
      #smallerCircle2{
-        margin-left:-290px;
+        margin-left:-600px;
         margin-top:215px;
     }
      #smallerCircle3{
@@ -401,6 +401,43 @@ span.glyphicon{
     .kiteImages{
         width:170px;
         height:180px;
+    }
+    
+    /** Time line responsiceness **/
+    #smallerCircle1{
+        margin-left:-150px;
+        margin-top:240px;
+    }
+     #smallerCircle2{
+        margin-left:0px;
+        margin-top:240px;
+    }
+     #smallerCircle3{
+        margin-left:-260px;
+        margin-top:240px;
+    }
+    #smallerCircle4{
+        margin-left:-260px;
+        margin-top:240px;
+    }
+    
+    #circle1{
+        margin-top:200px;
+        margin-left:-150px;
+    }
+    #circle2{
+        margin-top:200px;
+        margin-left:200px;
+    }
+    #circle3{
+        margin-top:200px;
+        margin-left:120px;
+    }
+    
+    /**Cover Page image **/
+    #lensimage{
+        margin-top: 250px;
+        margin-left:850px;
     }
 }
 

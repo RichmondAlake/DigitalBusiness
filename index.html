@@ -127,11 +127,11 @@
 
       <!--Adding padding to the top of text as navbar covers text on scroll -->
       <center>
-         <h1 class="fadeOnScroll themeTextBig" style="padding-top:50px; font-size:30px; color:grey;">How can we benefit your Company?</h1>
+         <h1 class="themeTextBig" style="padding-top:50px; font-size:30px; color:grey;">How can we benefit your Company?</h1>
          <br/>
          <br/>
          <br/>
-         <div class="fadeOnScroll container-fluid">
+         <div class="container-fluid">
             <img src="img/pngicons/icon5.png" id="icon5Text" class="kiteImages" style="margin-left:20px">
             <img src="img/pngicons/icon6.png" id="icon6Text" class="kiteImages" style="margin-left:20px">
             <img src="img/pngicons/icon7.png" id="icon7Text" class="kiteImages" style="margin-left:20px">
@@ -142,7 +142,7 @@
          </div>
 
          <center>
-            <h1 style="padding-top:50px;font-size:22pt" class="fadeOnScroll themeTextSmall text-muted" id="changingText">Our software solutions aim to solve a number of your <span style = 'color:#ef4545;'>Problems</span></h1>
+            <h1 style="padding-top:50px;font-size:22pt" class="themeTextSmall text-muted" id="changingText">Our software solutions aim to solve a number of your <span style = 'color:#ef4545;'>Problems</span></h1>
          </center>
       </center>
    </div>
@@ -799,7 +799,8 @@
             </h2>
          </center>
          <!-- Time line -->
-
+         <!-- added div container
+         <div class = "container-fluid">
          <ul class="timeLineCircle">
             <li class="timeLineCircleItems">
                <div class="smallerCircle" id="smallerCircle1"></div>
@@ -827,8 +828,11 @@
             </li>
 
          </ul>
+         
          <div class="line" style="margin-top:200px">
          </div>
+         </div>
+         -->
          <center>
             <div style="margin-top:150px">
 
@@ -1426,7 +1430,7 @@
 
 
    <!-- Forecast Table-->
-   <div class="sections" id="forecastTable" style="margin-bottom:600px; margin-top:150px;">
+   <div class="sections" id="forecastTable" style="margin-bottom:0px; margin-top:150px;">
       <center>
          <h1 class="fadeOnScroll themeTextBig" style="color:grey; font-size:30px;">Investment Forecasts</h1>
 
@@ -1927,9 +1931,9 @@
 
    <!-- Risk and Mitigation Section-->
 
-   <div id="riskandMitigationSection" class="sections" style="margin-top:500px">
+   <div  style= "margin-top:500px" id="riskandMitigationSection" class="sections">
 
-      <center>
+      <center> 
          <h2>Nothing comes without <span style = "color:#ef4545">Risks</span>, but we will <span style = "color:#a0ef45">Mitigate</span> them.</h2></center>
       <!-- Risk -->
       <div class="fullPageBlock" id="riskBlock">

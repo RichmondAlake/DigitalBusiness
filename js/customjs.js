@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+    $("html,body").scrollTop(55); //implemented due to the fact that coverpage buttons are not clickable when page is not scrolled
 
     /////Using animated.modal.js plugin for modals//////////////    
     $("#demo01").animatedModal({
@@ -125,6 +125,29 @@ $('#secondMitigation').hover(function (){
     //alert("here");
     $('#secondRisk').toggleClass("animated pulse");
 });
+
+
+$('#thirdRisk').hover(function (){
+    //alert("here");
+    $('#thirdMitigation').toggleClass("animated pulse");
+});
+
+$('#thirdMitigation').hover(function (){
+    //alert("here");
+    $('#thirdRisk').toggleClass("animated pulse");
+});
+
+$('#fourthRisk').hover(function (){
+    //alert("here");
+    $('#fourthMitigation').toggleClass("animated pulse");
+});
+
+$('#fourthMitigation').hover(function (){
+    //alert("here");
+    $('#fourthRisk').toggleClass("animated pulse");
+});
+
+
 
 
 

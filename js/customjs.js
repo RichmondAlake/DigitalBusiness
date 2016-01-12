@@ -73,22 +73,29 @@ $(document).ready(function() {
         color: '#fff'
     });
         
-        $("#demoScope").animatedModal({
+    $("#demoScope").animatedModal({
         modalTarget: 'scopeModal',
         animatedIn: 'zoomIn',
         animatedOut: 'zoomOut',
         color: '#fff'
     });
     
-        $("#demoMeview").animatedModal({
+    $("#demoMeview").animatedModal({
         modalTarget: 'meviewModal',
         animatedIn: 'zoomIn',
         animatedOut: 'zoomOut',
         color: '#fff'
     });
     
-        $("#demoNgrain").animatedModal({
+    $("#demoNgrain").animatedModal({
         modalTarget: 'ngrainModal',
+        animatedIn: 'zoomIn',
+        animatedOut: 'zoomOut',
+        color: '#fff'
+    });
+    
+    $("#exitStrategyModalButton").animatedModal({
+        modalTarget: 'exitStrategyModal',
         animatedIn: 'zoomIn',
         animatedOut: 'zoomOut',
         color: '#fff'
@@ -220,6 +227,14 @@ $('#fourthMitigation').hover(function (){
     });
     
     $("#financeNavButton").on('click', function() {
+        //alert('working');
+        $('html, body').animate({
+            scrollTop: $("#financeSection").offset().top
+        }, 1000);
+    });
+    
+    
+    $("#exitStrategySectionButton").on('click', function() {
         //alert('working');
         $('html, body').animate({
             scrollTop: $("#financeSection").offset().top
